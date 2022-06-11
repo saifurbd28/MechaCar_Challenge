@@ -7,7 +7,6 @@ In this challenge, I need to solve followings:
 •	Run t-tests to determine if the manufacturing lots are statistically different from the mean population. 
 •	Design a statistical study to compare the vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, I shall write a summary interpretation of the findings. 
 
-
 # Deliverable 1: Linear Regression to Predict MPG
 ## Linear Regression to Predict MPG
  
