@@ -7,6 +7,7 @@ In this challenge, I need to solve followings:
 •	Run t-tests to determine if the manufacturing lots are statistically different from the mean population. 
 •	Design a statistical study to compare the vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, I shall write a summary interpretation of the findings. 
 
+# Results and summary
 # Deliverable 1: Linear Regression to Predict MPG
 ## Linear Regression to Predict MPG
  
@@ -51,4 +52,32 @@ Using your knowledge of R, perform t-tests to determine if each lot individually
 ![one sample t test_each lot](https://user-images.githubusercontent.com/100442163/173204737-26d1ea7a-4c63-4829-8ab0-042984aca059.png)
 
 The result shows that only lot-3 is statistically different (P<0.05) from the population mean of 1,500 pounds per square inch.
+
+# Deliverable-4
+## Study Design: MechaCar vs Competition. 
+# Dataset description
+To evaluate the performance between cars of MechaCar and its competitors, we need a dataset with the following variables:
+•	MPG: Miles per gallon of fuel indicates the fuel economy.
+•	Acceleration time: Seconds to reach 60 km/hr indicate the acceleration efficiency.
+•	Interior noise: Lower interior noise relates to the aerodynamic design and customer satisfaction. 
+•	Safety rating: It indicates safety in an accident.
+•	Driving-assisting features: Safety rating and driver comfortability depend on driving assisting features.
+•	Cost: Cost-effectiveness scale.
+•	Horsepower: Engine power is important for acceleration time and bearing heavy loads (i.e., trailer).
+
+
+# Statistical analyses
+1)	We need to generate a performance score for each brand, based on the above-described variables. To do so, we can include “sales per year” information in the dataset. A linear regression model can be used to understand the relation between “sales per year” and all other variables. If the intercept is significant, we can term the ‘sales per year’ as a performance indicator.
+
+2)	Then list the performance and rank them on a scale of 10. It will be the performance score.
+
+
+3)	An ‘one sample T-test’ on this performance score for each of these competitors will find out the list of good cars that are above the average.
+
+Null hypothesis: A performance score higher or equal to 7 out of 10 does not indicate a good car (a top-tier popular car brand).
+
+Alternative hypothesis: A performance score higher or equal to 7 out of 10 indicates a good car (a top-tier popular car brand).
+
+4)	A ‘two-sample T-test’ between each two good car brands’ performance scores from this good car list will define how these good cars’ performance. 
+
 
